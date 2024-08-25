@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    
+    
+}
+
+.post{
+ 
+    background-color: white;
+    height: 100%;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 8px 16px  #bcbcbc;
+  
+}
+
+.backButton {
+    width: 100%;
+    text-align: right;
+    padding: 2rem; 
+  }
+  
+  .backButton button {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #24eba3; 
+    border-radius: 25px;
+    background-color: #24eba3;
+    transition: transform 0.1s ease; 
+    font-weight: bold;
+}
+
+.backButton button:hover {
+    transform: scale(1.1);
+    background-color: #404040;
+    border: 1px solid #404040; 
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.logo img {
+    height:75px;
+    transition: transform 0.2s ease;
+
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    padding:2rem;
+}

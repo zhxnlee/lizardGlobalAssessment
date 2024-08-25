@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+  
+   
+  
+    
+}
+
+.postsListings{
+    z-index: 2;
+    position: relative;
+}
+
+
+
+

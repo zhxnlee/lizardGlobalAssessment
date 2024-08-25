@@ -1,0 +1,120 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    width:100%;
+    padding: 2rem;
+    gap:2rem;
+    box-sizing: border-box;
+    border-bottom: solid gray 1px;
+    padding-bottom: 4rem;
+    
+}
+
+.summary{
+    transition: transform 0.2s ease;
+}
+
+.summary:hover{
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.name:hover{
+    transform: scale(1.1);
+    cursor: default;
+    
+}
+
+.name img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: solid lightgray 1px;
+
+
+    
+}
+
+.publishedDate p{
+    color: gray;
+}
+
+.publishedDate{
+    transition: transform 0.2s ease;
+
+}
+
+.publishedDate:hover{
+    transform: scale(1.1);
+    cursor: default;
+}
+
+
+.categories{
+    align-items: left;
+}
+.categories ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    padding-top:2rem;
+    padding-left: 0;
+    gap:0.2rem;
+    color: lightgray;
+
+    
+}
+
+
+  
+.title {
+    color: black; 
+    transition: transform 0.2s ease;
+}
+
+.title:hover{
+    color: #24eba3;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+.moreDetails{ 
+    transition: transform 0.2s ease;
+}
+
+.moreDetails a{
+    color: black; 
+   
+}
+
+.moreDetails a:hover{
+    color: #24eba3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.moreDetails:hover{
+    transform: scale(1.1);
+}
+
+
